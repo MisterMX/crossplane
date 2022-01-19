@@ -49,7 +49,7 @@ import (
 )
 
 const (
-	reconcileTimeout = 3 * time.Minute
+	reconcileTimeout = 10 * time.Minute
 )
 
 const (
