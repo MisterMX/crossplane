@@ -31,7 +31,7 @@ import (
 
 	v1 "github.com/crossplane/crossplane/apis/apiextensions/v1"
 	pkgv1 "github.com/crossplane/crossplane/apis/pkg/v1"
-	"github.com/crossplane/crossplane/internal/initializer"
+	"github.com/crossplane/crossplane/pkg/initializer"
 )
 
 // initCommand configuration for the initialization of RBAC controllers.

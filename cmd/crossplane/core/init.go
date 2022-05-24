@@ -28,7 +28,7 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/errors"
 	"github.com/crossplane/crossplane-runtime/pkg/logging"
 
-	"github.com/crossplane/crossplane/internal/initializer"
+	"github.com/crossplane/crossplane/pkg/initializer"
 )
 
 // initCommand configuration for the initialization of core Crossplane controllers.

@@ -33,11 +33,11 @@ import (
 	"github.com/crossplane/crossplane-runtime/pkg/ratelimiter"
 
 	apiextensionsv1 "github.com/crossplane/crossplane/apis/apiextensions/v1"
-	"github.com/crossplane/crossplane/internal/controller/apiextensions"
-	"github.com/crossplane/crossplane/internal/controller/pkg"
-	pkgcontroller "github.com/crossplane/crossplane/internal/controller/pkg/controller"
-	"github.com/crossplane/crossplane/internal/features"
-	"github.com/crossplane/crossplane/internal/xpkg"
+	"github.com/crossplane/crossplane/pkg/controller/apiextensions"
+	"github.com/crossplane/crossplane/pkg/controller/pkg"
+	pkgcontroller "github.com/crossplane/crossplane/pkg/controller/pkg/controller"
+	"github.com/crossplane/crossplane/pkg/features"
+	"github.com/crossplane/crossplane/pkg/xpkg"
 )
 
 // Command runs the core crossplane controllers
